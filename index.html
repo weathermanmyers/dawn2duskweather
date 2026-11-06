@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dawn2Dusk Weather | Live Weather Coverage, Radar and Forecasts</title>
+  <meta name="description" content="Live weather coverage, radar, current conditions and forecasts, updated automatically throughout the day.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/config.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span>Dawn2Dusk Weather</a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="index.html#watch-live">Watch Live</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="live" id="watch-live" aria-labelledby="live-heading">
+      <div class="wrap">
+        <div class="live-head">
+          <h1 id="live-heading"><span class="live-dot" aria-hidden="true"></span>Live National Weather Coverage</h1>
+          <p class="lede">Live radar, forecasts and updates as they happen. Tap the player for sound.</p>
+        </div>
+        <div class="live-frame" id="live-slot"></div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <div id="ad-top" class="ad ad-top"></div>
+
+      <section aria-labelledby="maps-heading">
+        <h2 id="maps-heading">Weather maps</h2>
+        <p class="lede">National maps that update automatically throughout the day.</p>
+        <div id="image-grid" class="grid"></div>
+      </section>
+
+      <div id="ad-middle" class="ad ad-middle"></div>
+
+      <section aria-labelledby="local-heading">
+        <h2 id="local-heading">Weather tools</h2>
+        <div id="widget-grid" class="grid widget-grid"></div>
+      </section>
+
+      <section aria-labelledby="discussion-heading">
+        <h2 id="discussion-heading">Forecast discussion</h2>
+        <div class="prose">
+          <p>Write a short daily forecast discussion here: what's coming, why, and what it means for plans this week. Original written content helps visitors, and Google looks for it when reviewing a site for ads.</p>
+        </div>
+      </section>
+
+      <div id="ad-bottom" class="ad ad-bottom"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Dawn2Dusk Weather</span>
+      <span class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
